@@ -1,0 +1,17 @@
+
+.encabezado{
+    background-color: #e80415;
+    width: 100%;
+    height: 138px;
+}
+.opciones{
+    padding-top: 3cm;
+}
+.gg-menu{
+    cursor: pointer;
+    color: white;    
+}
+.gg-menu:hover {
+    background-color: #e80415;
+    color: white;
+}
