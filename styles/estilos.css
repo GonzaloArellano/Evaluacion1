@@ -1,17 +1,47 @@
+body{
+    display: flex;
+
+}
+
+
+
 
 .encabezado{
     background-color: #e80415;
     width: 100%;
     height: 138px;
+    display:  flex;
 }
-.opciones{
-    padding-top: 3cm;
+.barras{
+    padding-top: 1.5cm;
+    padding-left: 1cm;
+
 }
 .gg-menu{
     cursor: pointer;
     color: white;    
 }
-.gg-menu:hover {
-    background-color: #e80415;
+
+.telepizza {
+    width: 100px;
+    height: 40px;
+    padding-top: 1.1cm;
+    padding-left: 0.3cm;
+    cursor: pointer;
+}
+
+.menu{
     color: white;
+    padding-top: 0.85cm;
+    padding-left: 0.5cm;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tiendas{
+    color: white;
+    padding-top: 0.85cm;
+    padding-left: 0.5cm;
+    cursor: pointer;
+    font-size: 20px;
 }
