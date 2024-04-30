@@ -59,9 +59,11 @@
     color: #e80415;
     background-color: white;   
 }
+
 .blanco:hover{
     color: #e80415;
 }
+
 .iniciar{
     background-color: #e80415;
     border-width: 1px;
@@ -69,9 +71,11 @@
     border-color: white;
     cursor: pointer;
 }
+
 .logito{
     height: 20%;
 }
+
 .contenedorbotones{
     display: flex;
     width: 100%;
@@ -126,6 +130,7 @@
     padding-left: 0.1px;
     padding-bottom: 10px;
 }
+
 .sesion {
     padding-top: 0.7cm;
     padding-left: 37cm ;
@@ -244,24 +249,29 @@ li{
     color: #f9fafc;
     border-style: none;
 }
+
 .arial{
     font-family: Arial;
     font-size: 1rem;
     line-height: 1.75rem;
     color: #162c41
 }
+
 .gapcito{
     margin-left: 45rem;
 }
+
 .espacio{
     margin-left: 100rem;
     position:absolute
 }
+
 .botones{
     height: 40;
     border-style: none;
     cursor: pointer;
 }
+
 .definitivo{
     height: 64px;
     width: 100%;
@@ -269,18 +279,21 @@ li{
     display: flex;
     justify-content: center;
 }
+
 .letrafooter{
     font-family: Arial;
     color: #e7ecf1;
     font-size: 1rem;
     margin-top: 1.5rem;    
 }
+
 .logorobado{
     width: 144px;
     height: 32px;
     fill: white;
     margin-top: 1rem;
     margin-left: 0.5rem;
+    cursor: pointer;
 }
 .standard{
     font-family: Arial;
@@ -289,14 +302,19 @@ li{
     font-size: 17px;
     padding-top: 1rem;
 }
+
 .precio{
     color: #33373f;
     padding-left: 0.5rem;
     font-size: 17px;
     font-family: Arial;
 }
+
 .description{
     padding-left: 0.5rem;
     font-family: Arial;
     color:#979ba0
+}
+.subrayado:hover{
+    text-decoration-line: none;
 }
