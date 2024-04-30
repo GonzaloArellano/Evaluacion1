@@ -41,15 +41,8 @@
     padding-left: 0.8cm;
 }
 
-.delivery{
-    height: 45px;
-    border-radius: 10px;
-    flex-direction: column;
-    border-style: hidden;
-    cursor: pointer;
-}
-
 .bentrega{
+    margin-right: 10px;
     height: 45px;
     border-radius: 10px;
     border-style: hidden;
@@ -79,13 +72,22 @@
 }
 .contenedorbotones{
     display: flex;
-    width: 110%;
+    width: 100%;
     height: 69px;
     background-color: #e80415;
     flex-direction: row;
     align-items: flex-end;
     gap: 0.5rem;
 }
+
+.delivery{
+    height: 3rem;
+    border-radius: 10px;
+    flex-direction: column;
+    border-style: hidden;
+    cursor: pointer;
+}
+
 .rojo{
     color: #d13448;
 }
@@ -107,19 +109,17 @@
 }
 
 .texto{
-    margin-top: 12px;
+    margin-top: 1rem;
     margin-bottom: 8px;
-    margin-right: 140px;
+    margin-right: 5rem;
     font-family: Arial;
 }
-.container {
-    border-radius: 20px;
-    padding-left: 300px;
-}
+
 .separacion{
     padding-left: 20px;
     padding-bottom: 10px;
 }
+
 .entrega{
     padding-left: 0.1px;
     padding-bottom: 10px;
@@ -128,17 +128,25 @@
     padding-top: 0.7cm;
     padding-left: 37cm ;
 }
+
 .barra{
     font-family: Arial;
 }
+
 .barrita{
     padding-left: 0.4cm;
     padding-top: 0.01cm;
     font-size: 175%;
     color: white;
 }
+
+.container {
+    border-radius: 20px;
+    padding-left: 300px;
+}
+
 .busqueda{
-    width: 450px;
+    width: 420px;
     height: 30px;
     border-style: hidden;
     margin-bottom: 0.41cm;
@@ -147,3 +155,46 @@
     border-radius: 7%;
     margin-left: 9cm;
 }
+
+.contenedorpromo{
+    display: flex;
+    align-items: center;
+}
+
+.imagen{
+    margin-left: 15%;
+    width:65%;
+    border-radius: 10px;
+}
+
+.opciones{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+li{
+    font-size: 16px;
+    font-family: Arial;
+    list-style-type: none;
+    color: #515276
+}
+
+.contenido{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+.items{
+    border: 1px solid #e5e7eb;
+    box-sizing: border-box;
+}
+.imagenes{
+    max-width: 180px;
+    float:inline-end;
+}
+h2{
