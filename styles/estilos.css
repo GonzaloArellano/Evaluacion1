@@ -1,16 +1,11 @@
-body{
-    display: flex;
-
-}
-
-
-
-
 .encabezado{
     background-color: #e80415;
     width: 100%;
-    height: 138px;
-    display:  flex;
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 .barras{
     padding-top: 1.5cm;
@@ -25,23 +20,82 @@ body{
 .telepizza {
     width: 100px;
     height: 40px;
-    padding-top: 1.1cm;
-    padding-left: 0.3cm;
+    padding-top: 1cm;
+    padding-left: 0.01cm;
     cursor: pointer;
 }
 
 .menu{
     color: white;
-    padding-top: 0.85cm;
-    padding-left: 0.5cm;
     cursor: pointer;
     font-size: 20px;
+    margin-bottom: auto;
+    height: 10%;
 }
 
 .tiendas{
     color: white;
-    padding-top: 0.85cm;
-    padding-left: 0.5cm;
     cursor: pointer;
     font-size: 20px;
+}
+
+.delivery{
+    height: 40px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.bentrega{
+    border-radius: 10px;
+}
+.buscar{
+    border-radius: 10px;
+    border-color:#e80415;
+}
+.iniciar{
+    font-size: .875rem;
+    line-height: 1,25rem;
+    background-color: #e80415;
+    border-width: 1px;
+    width:200px;
+}
+.iniciar:hover{
+    background-color: white;
+    animation-delay: 0ms;
+}
+.logito{
+    height: 20%;
+}
+.contenedorbotones{
+    display: flex;
+    width: 100%;
+    height: 69px;
+    background-color: #e80415;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+.rojo{
+    color: #d13448;
+}
+.blanco:hover {
+    color: red;
+    animation-delay: 0ms;
+}
+.blanco{
+    color:white
+}
+
+.busqueda {
+    padding-left: 30rem;
+}
+
+.carrito{
+    height: 20px;
+}
+
+.texto{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 100px;
 }
