@@ -251,8 +251,52 @@ li{
     color: #162c41
 }
 .gapcito{
-    margin-left: 40rem;
+    margin-left: 45rem;
 }
 .espacio{
-    margin-left: 20rem;
+    margin-left: 100rem;
+    position:absolute
+}
+.botones{
+    height: 40;
+    border-style: none;
+    cursor: pointer;
+}
+.definitivo{
+    height: 64px;
+    width: 100%;
+    background-color: #202938;
+    display: flex;
+    justify-content: center;
+}
+.letrafooter{
+    font-family: Arial;
+    color: #e7ecf1;
+    font-size: 1rem;
+    margin-top: 1.5rem;    
+}
+.logorobado{
+    width: 144px;
+    height: 32px;
+    fill: white;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.standard{
+    font-family: Arial;
+    color: #33373f;
+    padding-left: 0.5rem;
+    font-size: 17px;
+    padding-top: 1rem;
+}
+.precio{
+    color: #33373f;
+    padding-left: 0.5rem;
+    font-size: 17px;
+    font-family: Arial;
+}
+.description{
+    padding-left: 0.5rem;
+    font-family: Arial;
+    color:#979ba0
 }
