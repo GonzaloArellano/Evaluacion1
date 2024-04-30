@@ -3,13 +3,14 @@
     width: 100%;
     height: 69px;
     display: flex;
-    flex-direction: row;
 }
+
 .barras{
     padding-top: 0.9cm;
     padding-left: 0.8cm;
 
 }
+
 .gg-menu{
     cursor: pointer;
     color: white;    
@@ -48,6 +49,7 @@
     border-style: hidden;
     opacity: 70%;
 }
+
 .buscar{
     border-radius: 10px;
     border-color:#e80415;
@@ -178,23 +180,79 @@ li{
     font-size: 16px;
     font-family: Arial;
     list-style-type: none;
-    color: #515276
+    color: #515276;
+    cursor: pointer;
 }
 
 .contenido{
     margin-top: 5%;
     margin-left: 10%;
+    margin-bottom: 10%;
     width: 80%;
     gap: 15px;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
 .items{
     border: 1px solid #e5e7eb;
     box-sizing: border-box;
 }
+
+.items:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    cursor: pointer;
+}
+
 .imagenes{
     max-width: 180px;
     float:inline-end;
 }
-h2{
+.footersito{
+    width: 100%;
+    height: 224px;
+    background-color: #f9fafc;
+    display: flex;
+}
+
+.subrayado{
+    color: #123b56;
+    line-height: 2rem;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-family: Arial;
+}
+
+.botoncito{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    font-family: Arial;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.start{
+    border-radius: .5rem;
+    border-width: 0.1px;  
+}
+
+.start:hover{
+    background-color: #f9fafc;
+    border-color: #f9fafc;;
+    color: #f9fafc;
+    border-style: none;
+}
+.arial{
+    font-family: Arial;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #162c41
+}
+.gapcito{
+    margin-left: 40rem;
+}
+.espacio{
+    margin-left: 20rem;
+}
