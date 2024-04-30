@@ -4,12 +4,10 @@
     height: 69px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
 }
 .barras{
-    padding-top: 1.5cm;
-    padding-left: 1cm;
+    padding-top: 0.9cm;
+    padding-left: 0.8cm;
 
 }
 .gg-menu{
@@ -18,57 +16,70 @@
 }
 
 .telepizza {
+    padding-top: 0.4cm;
+    padding-left: 0.5cm;
     width: 100px;
-    height: 40px;
-    padding-top: 1cm;
-    padding-left: 0.01cm;
+    height: 50px;
     cursor: pointer;
 }
 
 .menu{
+    padding-top: 0.4cm;
+    padding-left: 0.9cm;
+    font-family: Arial;
     color: white;
     cursor: pointer;
-    font-size: 20px;
-    margin-bottom: auto;
-    height: 10%;
+    font-size: 16px;
 }
 
 .tiendas{
     color: white;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: Arial;
+    padding-top:0.4cm;
+    padding-left: 0.8cm;
 }
 
 .delivery{
-    height: 40px;
+    height: 45px;
     border-radius: 10px;
     flex-direction: column;
+    border-style: hidden;
+    cursor: pointer;
 }
 
 .bentrega{
+    height: 45px;
     border-radius: 10px;
+    border-style: hidden;
+    opacity: 70%;
 }
 .buscar{
     border-radius: 10px;
     border-color:#e80415;
 }
+
+.iniciar:hover{
+    color: #e80415;
+    background-color: white;   
+}
+.blanco:hover{
+    color: #e80415;
+}
 .iniciar{
-    font-size: .875rem;
-    line-height: 1,25rem;
     background-color: #e80415;
     border-width: 1px;
-    width:200px;
-}
-.iniciar:hover{
-    background-color: white;
-    animation-delay: 0ms;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
 }
 .logito{
     height: 20%;
 }
 .contenedorbotones{
     display: flex;
-    width: 100%;
+    width: 110%;
     height: 69px;
     background-color: #e80415;
     flex-direction: row;
@@ -78,24 +89,61 @@
 .rojo{
     color: #d13448;
 }
-.blanco:hover {
-    color: red;
-    animation-delay: 0ms;
-}
-.blanco{
-    color:white
-}
 
-.busqueda {
-    padding-left: 30rem;
+.blanco{
+    color:white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial;
+    font-size: 15px;
 }
 
 .carrito{
-    height: 20px;
+    height: 25px;
+    padding-top: 0.9cm;
+    padding-left: 0.1cm;
 }
 
 .texto{
-    margin-top: 8px;
+    margin-top: 12px;
     margin-bottom: 8px;
-    margin-right: 100px;
+    margin-right: 140px;
+    font-family: Arial;
+}
+.container {
+    border-radius: 20px;
+    padding-left: 300px;
+}
+.separacion{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.entrega{
+    padding-left: 0.1px;
+    padding-bottom: 10px;
+}
+.sesion {
+    padding-top: 0.7cm;
+    padding-left: 37cm ;
+}
+.barra{
+    font-family: Arial;
+}
+.barrita{
+    padding-left: 0.4cm;
+    padding-top: 0.01cm;
+    font-size: 175%;
+    color: white;
+}
+.busqueda{
+    width: 450px;
+    height: 30px;
+    border-style: hidden;
+    margin-bottom: 0.41cm;
+    font-size: Arial;
+    font-size: 20px;
+    border-radius: 7%;
+    margin-left: 9cm;
 }
