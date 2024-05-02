@@ -55,6 +55,16 @@
     border-color:#e80415;
 }
 
+.blanco{
+    color:white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
 .iniciar:hover{
     color: #e80415;
     background-color: white;   
@@ -98,15 +108,6 @@
     color: #d13448;
 }
 
-.blanco{
-    color:white;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: Arial;
-    font-size: 15px;
-}
 
 .carrito{
     height: 25px;
@@ -114,6 +115,9 @@
     padding-left: 0.1cm;
 }
 
+.carrito:hover{
+    cursor: pointer;
+}
 .texto{
     margin-top: 1rem;
     margin-bottom: 8px;
